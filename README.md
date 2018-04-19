@@ -23,9 +23,4 @@ export THMAS_CONTENTFUL_CMA_TOKEN=...
 
 ### deploy
 
-#### local
-`now`
-
-#### prod
-`now -e THMAS_CONTENTFUL_CMA_TOKEN=${THMAS_CONTENTFUL_CMA_TOKEN} -e TMHAS_CONTENTFUL_CDA_TOKEN=${TMHAS_CONTENTFUL_CDA_TOKEN}`
-
+Update environment variables in `ecosystem.config.js`
