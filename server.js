@@ -88,7 +88,7 @@ function startServer(clients, schemas) {
 
     const electionExt = cfGraphql.helpers.expressGraphqlExtension(electionClient , electionSchema, opts);
 
-    app.use('/graphql/about', graphqlHTTP(electionExt));
+    app.use('/graphql/election', graphqlHTTP(electionExt));
 
     app.listen(port);
 
